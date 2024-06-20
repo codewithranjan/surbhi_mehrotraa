@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DR. SURABHI MEHROTRA</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+
+  <style>
+    @media (min-width: 1200px) {
+      .large-screen-header {
+          margin-left: 355px;
+      }
+      .large-screen-paragraph {
+          margin-left: 359px;
+          font-size: 17px;
+      }
+      .large-screen-paragraph2 {
+        margin-left: 359px;
+        font-size: 17px;
+        margin-top: 0%;
+        margin-bottom: 3px !important;
+    }
+  }
+
+
+
+    .section-title {
+      text-align: left;
+      position: relative;
+    }
+
+    .btn-shine {
+      font-size: 1.2rem; /* Default font size for larger screens */
+      padding: 1rem 2rem; /* Default padding for larger screens */
+      background: #ffdd57;
+      color: #333;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .btn-shine:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 992px) {
+      .btn-shine {
+        font-size: 1rem; /* Adjust font size for medium screens */
+        padding: 0.8rem 1.6rem; /* Adjust padding for medium screens */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .btn-shine {
+        font-size: 0.9rem; /* Adjust font size for small screens */
+        padding: 0.6rem 1.2rem; /* Adjust padding for small screens */
+      }
+    }
+
+    @media (max-width: 576px) {
+      .btn-shine {
+        border: 3px solid #04AA6D;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.5rem 1rem; /* Adjust padding for extra small screens */
+        color: #fff;
+        background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+        background-position: 0;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+        font-family: "Poppins", sans-serif;
+        -webkit-background-clip: text;
+      }
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: -100%;
+      }
+      100% {
+        background-position: 200%;
+      }
+    }
+ 
+    .button {
+      background-color: white; /* Green */
+      border: 3px solid #04AA6D;
+      color: #04AA6D;
+      font-weight: 30px !important;
+      font-size: 20px !important;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border-radius: 8px;
+    }
+    
+    .button1 {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    
+    .btn-shine {
+      border: 3px solid #04AA6D;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 12px 48px;
+      color: #fff;
+      background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+      background-position: 0;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s infinite linear;
+      animation-fill-mode: forwards;
+      -webkit-text-size-adjust: none;
+      font-weight: 600;
+      font-size: 16px;
+      text-decoration: none;
+      white-space: nowrap;
+      font-family: "Poppins", sans-serif;
+      -webkit-background-clip: text;
+
+    }
+    @media (max-width: 576px) {
+      .btn-shine {
+        border: 3px solid #04AA6D;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 12px 48px;
+        color: #fff;
+        background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+        background-position: 0;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+        font-family: "Poppins", sans-serif;
+        -webkit-background-clip: text;
+      }
+    }
+    @-moz-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @-webkit-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @-o-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    .styled-li a {
+      color: black;
+      text-decoration: none;
+  }
+
+  .styled-li a:hover {
+      color: white;
+  }
+
+
+
+  .icon-box {
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .icon-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .dropdown-menu[data-bs-popper] {
+    top: -161% !important;
+    left: 161px !important;
+    margin-top: var(--bs-dropdown-spacer);
+    background-color: #5d5d5b !important;
+    border: 2px solid #dbdad6;
+}
+
+.rounded-circle {
+  border-radius: 0% !important;
+}
+
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img style="width: 210px;" src="assets/img/logouil.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html"></a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home"style="padding-right: 12px;"></i> <span>Home</span></a></li>
+          <!-- <li><a href="index.html" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Profile</span></a></li> -->
+            <li><a href="#research" class="nav-link scrollto"><i class="fa-solid fa-diagram-project"></i> <span>Research Projects</span></a></li>
+            <li><a href="#projectstaff" class="nav-link scrollto"><i class="bx bx-user"style="padding-right: 12px;"></i> <span>Project Staff</span></a></li>
+            <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-address-book"style="padding-right: 13px;"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="herouil" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="herouil-container" data-aos="fade-in">
+      <h1 class="large-screen-header">Urban Informatics Lab</h1>
+      <br>
+    <p class="large-screen-paragraph"  style="text-align: justify;">
+        The Urban Informatics Lab (UIL) at Maulana Azad National Institute of Technology (MANIT), Bhopal, specializes in the research and analysis of urban contexts with a niche in Environmental Planning. Founded and led by Dr. Surabhi Mehrotra, UIL focuses on urban morphology, sustainable planning, and environmental conservation through rigorous research, data collection, and urban environment studies. The lab also provides comprehensive training for students in geographical information systems (GIS), data analysis, and data interpretation, equipping them with the necessary skills to excel in urban and environmental planning fields.
+    </p>
+    <p class="large-screen-paragraph2"  style="text-align: justify;">
+      Dr Surabhi Mehrotra
+  </p>
+  <p class="large-screen-paragraph2"  style="text-align: justify;">
+    Founder, Urban Informatics Lab(UIL)
+  </p>
+  <br>
+  <p>
+  <button class="btn btn" style="border:2px solid white ;"><a style="color:white;" href="index.html">Profile</a></button></p>
+      <!-- <p><span class="typed" data-typed-items=""></span></p> -->
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+    <!-- ======= Resume Section ======= -->
+    <section id="research" class="resume"  style="background-color:#f4f4f4;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Research Projects</h2>
+         
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">            
+            <h3 class="resume-title">Project Title:</h3>
+            <div class="resume-item">
+              <h4> Calibrating Urban Livability in the Global South: Gendered Perspectives on
+                Climate, Health, Governance and Policy</h4>
+              <h5><b>Project Duration:</b> 1 October 2023 – 1 August 2024</h5>
+              <p>The Urban Studies Foundation (USF), UK funded project Titled – “Calibrating Urban Livability in
+                the Global South: Gendered Perspectives on Climate, Health, Governance and Policy” under the
+                Seminar Series Award is a three-part series entailing two virtual events and an in-person
+                symposium. Every event would have a workshop component. The overarching goal of this
+                project is to provide an interdisciplinary research platform for planners, academics,
+                practitioners, key stakeholders, and activists to contribute valuable narratives, research, case
+                studies, and artworks, among other formats. This series attempts to provide a representation of
+                gender-centric discourse informed by the on-the-ground experiences of women, along with
+                domain experts and researchers.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">   
+            <h3 class="resume-title">Project Title:</h3>         
+            <div class="resume-item">
+              <h4>Ensuring Livelihood Security Through Resource the Optimization Model for
+                Tribal Areas of MP</h4>
+              <h5><b>Project Duration:</b> 10 th March 2023 – 10th March 2025</h5>
+              <p>The Indian Council for Social Science Research (ICSSR), SCD Division, Ministry of Education,
+                Government of India- funded project &quot;Ensuring Livelihood Security through Resource
+                Optimization Model for Tribal Areas of MP&quot; aims to enhance the economic stability of tribal
+                communities in Madhya Pradesh by optimizing the use of local resources. This involves
+                implementing sustainable agricultural practices, improving water management including
+                irrigation facilities, and developing alternative livelihood options. The project focuses on
+                capacity building, skill development, and creating market linkages to boost income levels and
+                reduce poverty among the tribal population.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">  
+            <h3 class="resume-title">Project Title:</h3>          
+            <div class="resume-item">
+              <h4>Resilient Infrastructure Planning for the Fragile Socio-ecological System of
+                Wetlands</h4>
+              <h5><b>Project Duration:</b> August 2023 – August 2024</h5>
+              <p>The Coalition for Disaster Resilient Infrastructure (CDRI) funded Project Titled - “Resilient
+                Infrastructure Planning for the Fragile Socio-ecological System of Wetlands”, led by Dr. Surabhi
+                Mehrotra (MANIT Bhopal) and Dr. Ksh Lal Bihari Singha (Manipur University), focuses on
+                developing a people-centric framework for resilient infrastructure planning for fragile wetlands
+                ecosystems, taking the case of Loktak Wetland of Manipur, India. This interdisciplinary research
+                aims to protect wetland ecosystems and indigenous communities from extreme weather and
+                unplanned development. Using the vulnerability assessment, community need assessment,
+                and spatial analysis the project produces policy briefs, recommendations, strategies, and
+                resilience framework for fragile socio-ecological systems of wetlands.</p>
+            </div>
+          </div>
+      
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+
+    <section id="projectstaff" class="services portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Project Staff</h2>
+          
+        </div>
+        <!-- <div class="container mb-5">
+          <div class="section-title " style="font-size: medium;"><a href="#" class="btn-shine">Project Staff</a></div> -->
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <img src="assets/img/project staff/Samiksha Muddamwar.jpg" style="width: 150px; height:150px;border-radius: 8px;" alt="">
+              </div>
+              <h4><a href="">Samiksha Muddamwar</a></h4>
+              <p>Designation: Project Assistant</p>
+              <p>Project: Urban Studies Foundation (USF)     </p>
+              <p>MANIT Bhopal</p>
+              <br>
+              <a href="https://www.linkedin.com/in/samiksha-muddamwar-a70318136/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <img src="assets/img/project staff/Sakshi Sharma.jpg" style="width: 150px; height:150px;border-radius: 8px;" alt="">
+              </div>
+              <h4><a href="">Sakshi Sharma</a></h4>
+              <p>Designation: Research Associate</p>
+              <p>Project: Indian Council of Social Science Research (ICSSR)</p>
+              <p>MANIT Bhopal</p>
+              <br><br>
+              <a href="https://www.linkedin.com/in/sakshi-sharma-8a227b137/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <img src="assets/img/project staff/Paurnima Borikar.jpg" style="width: 150px; height:150px;border-radius: 8px;" alt="">
+              </div>
+              <h4><a href="">Paurnima Borikar</a></h4>
+              <p>Designation: Research Assistant</p>
+              <p>Project: Coalition for Disaster Resilient Infrastructure (CDRI)</p>
+              <p>MANIT Bhopal</p>
+              <br><br>
+              <a href="https://www.linkedin.com/in/paurnima-borikar-01a909225/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <img src="assets/img/project staff/Deepansh Birtharey.jpeg" style="width: 140px; height:150px;border-radius: 8px;" alt="">
+              </div>
+              <h4><a href="">Deepansh Birtharey</a></h4>
+              <p>Designation: Field Investigator</p>
+              <p>Project: Indian Council of Social Science Research (ICSSR)</p>
+              <p>MANIT Bhopal</p>
+              <br><br>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+          </div>
+          
+        </div>
+        <br>
+    
+      </div>
+    </section><!-- End Services Section -->
+
+<!-- contact -->
+
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="row" data-aos="fade-in">
+
+      <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Near Kali Mata Mandir, Bhopal, Madhya Pradesh, India 462003</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>surabhimehrotra@manit.ac.in</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>0755-4051128, +91 9833892850</p>
+          </div>
+
+          
+        </div>
+
+      </div>
+
+      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14667.237523801823!2d77.40845155!3d23.21361645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e43fe40941%3A0x10377d4af64ac6e9!2sMaulana%20Azad%20National%20Institute%20of%20Technology%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1718443408005!5m2!1sen!2sin" width="100%" height="353px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>DR. SURABHI MEHROTRA</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

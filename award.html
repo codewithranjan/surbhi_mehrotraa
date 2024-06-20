@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DR. SURABHI MEHROTRA</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+
+  <style>
+    @media (min-width: 1200px) {
+      .large-screen-header {
+          margin-left: 355px;
+      }
+      .large-screen-paragraph {
+          margin-left: 359px;
+          font-size: 17px;
+      }
+  }
+
+
+
+    .section-title {
+      text-align: left;
+      position: relative;
+    }
+
+    .btn-shine {
+      font-size: 1.2rem; /* Default font size for larger screens */
+      padding: 1rem 2rem; /* Default padding for larger screens */
+      background: #ffdd57;
+      color: #333;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .btn-shine:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 992px) {
+      .btn-shine {
+        font-size: 1rem; /* Adjust font size for medium screens */
+        padding: 0.8rem 1.6rem; /* Adjust padding for medium screens */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .btn-shine {
+        font-size: 0.9rem; /* Adjust font size for small screens */
+        padding: 0.6rem 1.2rem; /* Adjust padding for small screens */
+      }
+    }
+
+    @media (max-width: 576px) {
+      .btn-shine {
+        border: 3px solid #04AA6D;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.5rem 1rem; /* Adjust padding for extra small screens */
+        color: #fff;
+        background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+        background-position: 0;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+        font-family: "Poppins", sans-serif;
+        -webkit-background-clip: text;
+      }
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: -100%;
+      }
+      100% {
+        background-position: 200%;
+      }
+    }
+ 
+    .button {
+      background-color: white; /* Green */
+      border: 3px solid #04AA6D;
+      color: #04AA6D;
+      font-weight: 30px !important;
+      font-size: 20px !important;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border-radius: 8px;
+    }
+    
+    .button1 {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    
+    .btn-shine {
+      border: 3px solid #04AA6D;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 12px 48px;
+      color: #fff;
+      background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+      background-position: 0;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s infinite linear;
+      animation-fill-mode: forwards;
+      -webkit-text-size-adjust: none;
+      font-weight: 600;
+      font-size: 16px;
+      text-decoration: none;
+      white-space: nowrap;
+      font-family: "Poppins", sans-serif;
+      -webkit-background-clip: text;
+
+    }
+    @media (max-width: 576px) {
+      .btn-shine {
+        border: 3px solid #04AA6D;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 12px 48px;
+        color: #fff;
+        background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+        background-position: 0;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        white-space: nowrap;
+        font-family: "Poppins", sans-serif;
+        -webkit-background-clip: text;
+      }
+    }
+    @-moz-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @-webkit-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @-o-keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    @keyframes shine {
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 180px;
+      }
+      100% {
+        background-position: 180px;
+      }
+    }
+    .styled-li a {
+      color: black;
+      text-decoration: none;
+  }
+
+  .styled-li a:hover {
+      color: white;
+  }
+
+
+
+  .icon-box {
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .icon-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .dropdown-menu[data-bs-popper] {
+    top: -161% !important;
+    left: 161px !important;
+    margin-top: var(--bs-dropdown-spacer);
+    background-color: #5d5d5b !important;
+    border: 2px solid #dbdad6;
+}
+
+
+
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/Surabhi Mehrotra3.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Dr Surabhi Mehrotra</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/surabhi-mehrotra-42b9854/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link scrollto active"><i class="fa-solid fa-house" style="padding-right: 11px;"></i><span>Home</span></a></li>
+          <li><a href="index.html" class="nav-link scrollto"><i class="fa-solid fa-user"style="padding-right: 18px;"></i> <span>Profile</span></a></li>
+          <li><a href="education.html" class="nav-link scrollto"><i class="fa-solid fa-graduation-cap"></i> <span>Education</span></a></li>
+          <li><a href="experience.html" class="nav-link scrollto"><i class="fa-solid fa-briefcase"style="padding-right: 14px;"></i> <span>Work experience</span></a></li>
+          <li><a href="publications.html" class="nav-link scrollto"><i class="fa-brands fa-researchgate"style="padding-right: 19px;"></i> <span>Publications</span></a></li>
+          <li><a href="award.html" class="nav-link scrollto"><i class="fa-solid fa-award"style="padding-right: 21px;"></i><span>Achievement & Awards</span></a></li>
+
+          <!-- <li><a href="about.html" class="nav-link scrollto"><i class="fa-regular fa-address-card"></i></i> <span>About</span></a>
+          </li> -->
+          <li class="nav-item dropdown scrollto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bx bx-menu"style="padding-right: 15px;"></i> <span>Current Scholars</span>
+            </a>
+            <ul class="dropdown-menu scrollto"  aria-labelledby="navbarDropdown">
+                <!-- <li><a class="dropdown-item" href="about.html">Project Staff</a></li> -->
+                <li><a class="dropdown-item" href="scholars.html">PhD-Scholar</a></li>
+                <li><a class="dropdown-item" href="scholars.html">PG-Scholar</a></li>
+                <li><a class="dropdown-item" href="scholars.html">UG-Scholar</a></li>
+                <!-- Add more dropdown items as needed -->
+            </ul>
+        </li>
+        <li><a href="uil.html" class="nav-link scrollto"><i class="fa-solid fa-flask"style="padding-right: 15px;"></i> <span>Urban Informatics Lab (UIL)</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-address-book"style="padding-right: 13px;"></i> <span>Contact</span></a></li>
+
+          <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
+          <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+    <br><br><br>
+  </header><!-- End Header -->
+
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1 class="large-screen-header">Achievement & Awards</h1>
+     
+      <!-- <p><span class="typed" data-typed-items=""></span></p> -->
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+    <!-- ======= Resume Section ======= -->
+    <section id="about" class="resume"  style="background-color:#f4f4f4;">
+      <div class="container" data-aos="fade-up">
+
+        <!-- <div class="section-title">
+          <h2>Education :</h2>
+         
+        </div> -->
+
+        <div class="row">
+          <div class="col-lg-12">   
+            <!-- <h3 class="resume-title">Awards and other Attainments:</h3>          -->
+            <div class="resume-item">
+              <h6>Expert member in National Wetland Committee, Ministry of Environment, Forest and Climate Change
+                (MoEFCC)</h6>
+            </div>
+            <div class="resume-item">
+              <h6>Member of Expert Advisory Committee as Livelihood expert for Loktak Development Authority (LDA)
+                Manipur, India)</h6>
+            </div>
+            <div class="resume-item">
+              <h6>Japan Prize at International conference on urban climate, New York, USA, 2018 for the Best paper
+                presentation
+              </h6>
+            </div>
+            <div class="resume-item">
+              <h6>Vastu Shilpa Excellence Award for Best Thesis in Environmental Planning, 2001, CEPT, Ahmedabad,
+                India</h6>
+            </div>
+            <div class="resume-item">
+              <h6>Young researcher Travel grant for International Conference on Urban Climate (ICUC11)</h6>
+            </div>
+            <div class="resume-item">
+                <h6>Awarded Graduate Aptitude Test for Engineering (GATE) scholarship, year 2000</h6>
+              </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>DR. SURABHI MEHROTRA</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
